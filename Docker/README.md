@@ -7,4 +7,4 @@ The labs cover containerization concepts, Docker image creation, container manag
 Each lab has its own directory with the implementation files and a README documenting the steps and results.
 
 As I progress through the training, this directory will serve as a record of my practical experience with Docker.
-<img src="https://media1.tenor.com/m/de50d_Ztv3AAAAAd/bleh-cat.gif">
+<img src="https://media1.tenor.com/m/de50d_Ztv3AAAAAd/bleh-cat.gif" >
