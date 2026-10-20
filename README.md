@@ -9,9 +9,8 @@
 <p align="center">
   <b>A hands-on engineering portfolio documenting my DevOps training, practical labs, technical challenges, and continuous growth.</b>
 </p>
+<img src="https://media1.tenor.com/m/aGj-frNYMFEAAAAd/cat-cat-dance.gif">
 <p align="center">
-  <img src="[https://media1.tenor.com/m/aGj-frNYMFEAAAAd/cat-cat-dance.gif](https://media1.tenor.com/m/aGj-frNYMFEAAAAd/cat-cat-dance.gif)" width="700" alt="Demo GIF">
-</p><p align="center">
   <i>Learn by building. Improve by breaking. Master by understanding.</i>
 </p>
 
