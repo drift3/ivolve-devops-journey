@@ -174,4 +174,4 @@ I believe strong engineering comes from understanding how systems work, solving 
 <p align="center">
   ⭐ If you're reviewing this repository, feel free to explore the individual task directories for implementation details and verification evidence.
 </p>
-![Description](https://tse4.mm.bing.net/th/id/OIP.UGa6Y6RJHGIIo1Q0JW8dSgHaHa?r=0&w=500&h=500&rs=1&pid=ImgDetMain&o=7&rm=3)
+<img src="https://tse4.mm.bing.net/th/id/OIP.UGa6Y6RJHGIIo1Q0JW8dSgHaHa?r=0&w=500&h=500&rs=1&pid=ImgDetMain&o=7&rm=3">
