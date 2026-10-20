@@ -1,8 +1,8 @@
 # Build Tools
 
 This directory contains my hands-on build tool labs as part of the iVolve DevOps training.
-<img src="https://media1.tenor.com/m/JoRD9pDCbIcAAAAC/friday-dance.gif">
 The exercises focus on building, testing, and packaging applications using different build automation tools.
+<img src="https://media1.tenor.com/m/JoRD9pDCbIcAAAAC/friday-dance.gif">
 
 ### Completed Labs
 
