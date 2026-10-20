@@ -1,7 +1,7 @@
 # Lab 3: Creating a Docker Image for a Java Application
 
 In this lab, I containerized a Java calculator application using two different approaches.
-
+<img src="https://media.tenor.com/d-HSksPE2dMAAAAj/cat-dance-happy-dance-cat.gif">
 ### Part 1: Build Inside Docker
 - Used a Maven image with Java 17.
 - Created a working directory and a non-root user.
