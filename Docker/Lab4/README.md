@@ -28,6 +28,8 @@ docker rm container1
 Created an optimized Dockerfile2 using a multi-stage build approach to reduce the image size and configure the application to run as a non-root user for security:
 
 Dockerfile
+
+<img src="./pic2">
 # Stage 1: Build stage
 FROM maven:3.9.15-eclipse-temurin-17-alpine AS builder
 WORKDIR /app
