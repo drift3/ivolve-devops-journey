@@ -75,6 +75,7 @@ Saved image2 as a TAR file named lab-image.tar, deleted image2 from the local ho
 
 Bash
 # Save image to tar archive
+<img src="./pic3.PNG">
 docker save -o lab-image.tar image2
 
 # Remove image from local Docker host
