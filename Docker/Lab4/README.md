@@ -21,7 +21,7 @@ docker run -d --name container1 -p 8081:80 image1
 docker stop container1
 docker rm container1
 
-<img src="./pic1">
+<img src="./pic%201%20run%20the%20container%20the%20delete%20it.PNG">
 
 
 2. Optimization using Multi-Stage Build & Non-Root Security
