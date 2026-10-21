@@ -29,7 +29,7 @@ Created an optimized Dockerfile2 using a multi-stage build approach to reduce th
 
 Dockerfile
 
-<img src="./pic2">
+<img src="./pic%202.PNG">
 # Stage 1: Build stage
 FROM maven:3.9.15-eclipse-temurin-17-alpine AS builder
 WORKDIR /app
