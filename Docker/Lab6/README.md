@@ -99,3 +99,8 @@ Bash
 docker run -d   --name container3 -p 5006:5000 ivolve3
 <img src="./pic3.1.PNG">
 <img src="./pic3.PNG">
+
+
+4. VerificationBashcurl http://localhost:5006
+docker exec container3 printenv | grep APP_
+📊 Summary ComparisonContainer NameMapped PortEnv SourceAPP_NAMEAPP_ENVResource Limitscontainer15004:5000CLI -e flagsiVolveApp1stg1 CPU / 256MB RAMcontainer25005:5000File (env.txt)iVolveApp2prodSystem Defaultcontainer35006:5000Dockerfile (ENV)iVolveApp3devSystem Default👨‍💻 AuthorAhmed FaroukCloud DevOps Trainee
