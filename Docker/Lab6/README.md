@@ -46,3 +46,56 @@ docker run -d --name container1   -p 5004:5000  -e APP_NAME=iVolveApp1 -e APP_EN
 
 <img src="./pic1.PNG">
 <img src="./pic1.1.PNG">
+4. Verification & Resource Monitoring
+App Response Check:
+
+Bash
+curl http://localhost:5004
+Environment Variables Inspection:
+
+Bash
+docker exec container1 printenv | grep APP_
+Live Resource Usage Monitoring:
+
+Bash
+docker stats container1
+
+Step 3: Containerization (container2 - File-Based Environment Variables)
+1. Create env.txt File
+Plaintext
+APP_NAME=iVolveApp2
+APP_ENV=prod
+2. Run Container using --env-file
+Ran container2 mapped to host port 5005:
+
+Bash
+docker run -d --name container2  -p 5005:5000 --env-file env.txt ivolve1
+<img src="pic2file_para.PNG">
+<img src="./filepara.PNG">
+3. Verification
+Bash
+curl http://localhost:5005
+docker exec container2 printenv | grep APP_
+Step 4: Containerization (container3 - Hardcoded Dockerfile Variables)
+1. Create Dockerfile.dev
+Created a dedicated Dockerfile injecting default ENV values:
+
+Dockerfile
+FROM python:3.12-slim
+WORKDIR /app
+COPY . /app
+RUN pip install --no-cache-dir -r requirements.txt
+ENV APP_NAME=iVolveApp3
+ENV APP_ENV=dev
+EXPOSE 5000
+CMD ["python", "app.py"]
+2. Build New Image
+Bash
+docker build -f Dockerfile.dev -t ivolve3 .
+3. Run Container
+Ran container3 mapped to host port 5006:
+
+Bash
+docker run -d   --name container3 -p 5006:5000 ivolve3
+<img src="./pic3.1.PNG">
+<img src="./pic3.PNG">
