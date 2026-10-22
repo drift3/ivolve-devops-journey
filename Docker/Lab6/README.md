@@ -44,5 +44,5 @@ Ran container1 mapped to host port 5004 (to avoid host port conflicts) with a li
 Bash
 docker run -d --name container1   -p 5004:5000  -e APP_NAME=iVolveApp1 -e APP_ENV=stg --cpus="1.0" -m 256m ivolve1
 
-<img src="./pic1">
-<img src="./pic1.1">
+<img src="./pic1.PNG">
+<img src="./pic1.1.PNG">
